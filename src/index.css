@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  color: #121212;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #fef0de;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu__li li {
+  font-weight: 500;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #121212;
+  /* color: #894e3f; */
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.jakarta {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.hero-content__order-button {
+  padding: 20px;
+  border-radius: 36px;
+  min-width: 212px;
+  outline: none;
+  border: none;
+  background: var(--secondary-color);
+
+  cursor: pointer;
+
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.hero-content__play-button {
+  border: none;
+  outline: none;
+  background: transparent;
+
+  display: flex;
+  align-items: center;
+  
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--black-200);
+  font-family: var(--plus-jakarta-sans);
+
+  cursor: pointer;
+}
